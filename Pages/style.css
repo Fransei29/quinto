@@ -284,10 +284,10 @@ span {
   padding: 0;
   background-color: rgb(129, 89, 89);
   place-items: center;
-  overflow: hidden;
+  overflow: visible;
+  overflow-x: hidden;
 }
-
-.container177 {
+.container177 {  
   height: 100%;
   background-image: linear-gradient(to top, #8a574f, #53140b);
   color: beige;
@@ -296,12 +296,31 @@ span {
   margin: 0;
   padding: 0;
   font-size: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 0.2fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Titi Titi Titi"
+    "info8 info8 img88"
+    "img9 info9 info9"
+    "footer footer footer";
 }
+.Titi { grid-area: Titi; }
+.info8 { grid-area: info8; }
+.img8 { grid-area: img8; }
+.info9 { grid-area: info9; }
+.img9 { grid-area: img9; }
+.footer { grid-area: footer; }
 
 .img177 {
-  max-width: 500px;
+  max-width: 400px;
 }
-
+.footer88 {
+  display: flex;
+  align-items: flex-end;
+}
 .row22 {
   place-items: center;
   text-align: center;
@@ -316,7 +335,8 @@ span {
 }
 
 .gran3 {
-  padding-bottom: 10%;
+  padding-bottom: 7%;
+  padding-top: 12%;
 }
 
 .col22 {
