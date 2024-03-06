@@ -1,0 +1,87 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  html main {
+    text-align: center;
+  }
+  html .texto1 {
+    @extend %button-fra;
+  }
+  
+  
+  .header33 {
+    background-color: map-get($color-fra, primary);
+    color: rgba(228, 228, 241, 0.795);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding-top: 10%;
+    padding-bottom: 7%;
+    z-index: 2000;
+    margin-bottom: -2px;
+  }
+  .tete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  header h2 {
+    font-size: 20px;
+    padding-top: 25px;
+  }
+  /* ------- NAVBAR Index ---------*/
+#nav34 {
+    background-color: rgb(26, 25, 25);
+    color: white;
+    width: 100%;
+  }
+  #mobile {
+    display: none !important;
+  }
+  nav nav .mobile .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+  }
+  nav nav .mobile .header .more button {
+    border: none;
+    background-color: rgb(48, 50, 124);
+    padding: 15px;
+    cursor: pointer;
+  }
+  nav .logo {
+    min-width: 240px;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px 25px;
+  }
+  nav a:hover {
+    color: black;
+    background-color: rgb(56, 141, 141);
+  }
+  nav .desktop .primary, nav .desktop .secondary-full {
+    display: flex;
+  }
+  nav .desktop .secondary.mini {
+    display: none;
+  }
+  nav .desktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    padding: 0 20px;
+    z-index: 1;
+  }
+  .collapsed {
+    display: none;
+  }

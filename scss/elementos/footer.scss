@@ -1,0 +1,20 @@
+footer {
+    background-color: rgb(41, 49, 56);
+    padding: 20px;
+    color: white;
+    text-align: right;
+    font-size: 16px;
+  }
+  iframe {
+    border-radius: 5%;
+    padding-top: 0;
+  }
+  iframe .videaso {
+    display: flex;
+    flex-direction: row;
+  }
+  h4 {
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+  }
