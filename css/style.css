@@ -3,20 +3,29 @@ html .texto1 {
   text-decoration: none;
   color: rgb(15, 15, 15);
   font-size: 35px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 html {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:sans-serif;
 }
 
 html main {
+  background: rgb(221, 222, 225);
   text-align: center;
 }
 
+p {
+  font-size: 22px;
+}
+
+h2 {
+  margin-top: 2%;
+  padding: 1%;
+}
+
 .header33 {
-  background-color: rgb(41, 49, 56);
-  color: rgba(228, 228, 241, 0.795);
+  background-color: rgb(24, 23, 26);
+  color: rgba(233, 233, 233, 0.953);
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -40,7 +49,7 @@ header h2 {
 
 /* ------- NAVBAR Index ---------*/
 #nav34 {
-  background-color: rgb(26, 25, 25);
+  background-color: rgba(26, 25, 25, 0.685);
   color: white;
   width: 100%;
 }
@@ -95,7 +104,6 @@ nav .desktop {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: black;
   padding: 0 20px;
   z-index: 1;
 }
@@ -104,26 +112,27 @@ nav .desktop {
   display: none;
 }
 
-html .texto {
-  margin-top: 0;
-  padding-top: 1;
+.texto {
+  padding: 2%;
+  background: rgb(169, 173, 179);
 }
 
-.texto {
-  background-color: #3c4550;
+.texto1 {
+  font-size: 22px;
 }
 
 .container {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 3px 3px 5px 2px rgba(36, 35, 35, 0.5);
-  width: 100%;
-  max-width: 400px;
-  padding: 30px;
-  margin: 30px;
-  background: linear-gradient(to bottom, #4a5258, #3c4550);
-  border-radius: 2rem;
+  justify-content: center;
+  box-shadow: 0px 0px 1px 2px rgba(36, 35, 35, 0.3);
+  padding: 5px;
+  margin: 5%;
+  background: rgb(169, 173, 179);
+  border-radius: 4px;
+  height: 480px !important;
+  width: 900px !important;
 }
 
 .container .container img, .container .imagenes, .container .img922 {
@@ -133,16 +142,12 @@ html .texto {
   cursor: pointer;
   text-align: center;
   position: relative;
-  border-radius: 10%;
-  transition: transform 1s;
+  border-radius: 7px;
+  transition: scale 6s ease-in-out;
 }
 
 .derecha {
   padding-top: 20px;
-}
-
-.container .imagenes:hover {
-  transform: scale(1.7);
 }
 
 .bo122 {
@@ -171,7 +176,7 @@ footer {
   padding: 20px;
   color: white;
   text-align: right;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 iframe {
@@ -469,7 +474,7 @@ span {
 .carousel-caption {
   color: rgb(228, 228, 228);
   background-color: rgba(26, 12, 0, 0.7);
-  border-radius: 10%;
+  border-radius: 4px;
   height: 30%;
 }
 
