@@ -195,98 +195,13 @@ h4 {
   padding-bottom: 20px;
 }
 
-/*        -------      FACTORY     ------- */
-.container1223 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  gap: 5px 5px;
-  grid-auto-flow: row;
-  grid-template-areas: "Titulo Titulo Titulo" "First First Img" "Second Second Img2" "Third Third Img3";
-  text-align: center;
-  place-items: center;
-  height: 100%;
-  margin: 0;
-  font-family: sans-serif;
-  font-size: 20px;
-}
-
-#bo27 {
-  height: 100%;
-  margin: 0;
-  background-color: rgba(54, 40, 66, 0.855) !important;
-  color: rgb(239, 225, 247);
-}
-
-.vein {
-  background-color: rgba(54, 40, 66, 0.5);
-  border-radius: 5%;
-  margin: 10%;
-}
-
-span {
-  text-decoration: underline;
-  font-weight: bold;
-}
-
-.fofa {
-  background-color: rgb(54, 40, 66);
-}
-
-.Titulo {
-  background-image: url("/Img/gr3.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  color: white;
-  max-height: 100%;
-  width: 100%;
-  grid-area: Titulo;
-  padding-top: 10%;
-  padding-bottom: 10%;
-  font-family: "Arial Narrow Bold", sans-serif;
-}
-
-.First {
-  grid-area: First;
-  padding: 5%;
-}
-
-.Second {
-  grid-area: Second;
-  padding: 5%;
-}
-
-.Third {
-  grid-area: Third;
-  padding: 5%;
-}
-
-.Img {
-  grid-area: Img;
-  padding: 5%;
-}
-
-.Img2 {
-  grid-area: Img2;
-  padding: 5%;
-}
-
-.Img3 {
-  grid-area: Img3;
-  padding: 5%;
-}
-
-#img8 {
-  border-radius: 5%;
-}
 
 /* ------     FACTORY 2    ------ */
 #bo177 {
   width: 100%;
   height: 100%;
   margin: 0;
-  padding: 0;
+  display: flex;
   background-color: rgb(129, 89, 89);
   place-items: center;
   overflow: hidden;
@@ -294,12 +209,13 @@ span {
 
 .container177 {
   height: 100%;
+  display: flex;
   background-image: linear-gradient(to top, #8a574f, #53140b);
   color: beige;
   place-items: center;
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 15% !important;
   font-size: 20px;
 }
 
@@ -360,18 +276,14 @@ span {
 }
 /*-------- ABOUT US -------------*/
 .container96 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.7fr 1fr 1fr 1fr 1fr;
   gap: 0px 0px;
-  grid-auto-flow: row;
   width: 100%;
   justify-items: center;
   align-items: center;
   place-items: center;
   margin: 0;
   padding: 0;
-  grid-template-areas: "Titulo Titulo Titulo" "img7 person1 person1" "person2 person2 img8" "img person3 person3" "thanks thanks thanks";
+  
 }
 
 .Titulo96 {

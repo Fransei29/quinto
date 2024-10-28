@@ -133,7 +133,7 @@ html .texto {
   cursor: pointer;
   text-align: center;
   position: relative;
-  border-radius: 10%;
+  border-radius: 4px;
   transition: transform 1s;
 }
 
@@ -215,7 +215,7 @@ h4 {
 
 .vein {
   background-color: rgba(54, 40, 66, 0.5);
-  border-radius: 5%;
+  border-radius: 4px;
   margin: 10%;
 }
 
@@ -273,7 +273,7 @@ span {
 }
 
 #img8 {
-  border-radius: 5%;
+  border-radius: 4px;
 }
 
 /* ------     FACTORY 2    ------ */
@@ -282,19 +282,18 @@ span {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: rgb(129, 89, 89);
   place-items: center;
   overflow: visible;
   overflow-x: hidden;
 }
 .container177 {  
   height: 100%;
-  background-image: linear-gradient(to top, #8a574f, #53140b);
-  color: beige;
+  background-color: rgb(76, 26, 21);
+  color: white;
   place-items: center;
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 0% 15% 0% 15%;
   font-size: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -340,7 +339,7 @@ span {
 }
 
 .col22 {
-  color: beige;
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -351,7 +350,12 @@ span {
 }
 
 .col {
-  padding: 10%;
+  padding-top: 8%;
+  padding-bottom: 3%;
+}
+
+.col1 {
+  padding-left: 3%;
 }
 
 #girar23 {
@@ -446,7 +450,7 @@ span {
   margin: 0 auto;
   position: relative;
   width: 100%;
-  border-radius: 10%;
+  border-radius: 4px;
   align-items: center;
   justify-items: center;
 }
@@ -489,7 +493,7 @@ span {
 .carousel-caption {
   color: rgb(228, 228, 228);
   background-color: rgba(26, 12, 0, 0.7);
-  border-radius: 10%;
+  border-radius: 4px;
   height: 30%;
 }
 
@@ -688,7 +692,7 @@ body {
 }
 
 .info1, .info2, .info3 {
-  border-radius: 2%;
+  border-radius: 4px;
   box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.5);
   align-items: center;
   text-align: center;
@@ -742,7 +746,7 @@ body {
   margin: 0 auto;
   position: relative;
   width: 100%;
-  border-radius: 10%;
+  border-radius: 4px;
   align-items: center;
   justify-items: center;
   width: 350px;
@@ -760,7 +764,7 @@ body {
   margin: 0 auto;
   position: relative;
   width: 100%;
-  border-radius: 10%;
+  border-radius: 4px;
   align-items: center;
   justify-items: center;
   width: 100% !important;
